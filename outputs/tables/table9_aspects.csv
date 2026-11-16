@@ -1,0 +1,8 @@
+Aspect,Clauses,Share of reviews %,Mean VADER,Positive %,Negative %,Mean star of review
+Convenience / ease of use,11942,13.4,0.4,74.7,4.2,4.61
+Security / fraud,4656,5.1,0.09,54.0,38.6,2.99
+Rewards / offers,4160,4.3,0.07,36.8,29.7,2.69
+Customer support,7325,6.9,-0.0,39.3,41.4,1.76
+Account / KYC / blocking,7787,7.9,-0.03,26.4,33.3,2.3
+Reliability / transactions,8755,9.4,-0.03,24.8,33.5,2.33
+Privacy / data,2007,2.1,-0.04,24.0,29.1,2.05

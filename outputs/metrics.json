@@ -1,0 +1,91 @@
+{
+  "upi_counts": {
+    "raw": 183876,
+    "after_id_empty": 183864,
+    "after_empty_clean": 180826,
+    "after_nonenglish": 179229,
+    "final": 83140
+  },
+  "mean_rating": 4.145199712831223,
+  "pct_45": 78.58525866945133,
+  "pct_12": 17.608123395553235,
+  "mean_rating_Google Pay": 3.65,
+  "mean_rating_Paytm": 4.27,
+  "mean_rating_PhonePe": 4.11,
+  "mean_rating_All apps": 4.15,
+  "chi2_low_by_app": {
+    "chi2": 4388.314028892847,
+    "df": 2,
+    "p": 0.0
+  },
+  "words_by_star": {
+    "1": 19.4,
+    "2": 16.9,
+    "3": 10.7,
+    "4": 5.6,
+    "5": 3.9
+  },
+  "dup_share": {
+    "en_reviews": 179229,
+    "repeats": 96089,
+    "pct": 53.61241763330711,
+    "good_count": 22618
+  },
+  "lexicon_sentiment": {
+    "vader": {
+      "acc": 0.599867693047871,
+      "macro_f1": 0.47881201215944813,
+      "shares": {
+        "positive": 52.4,
+        "neutral": 27.2,
+        "negative": 20.4
+      },
+      "rho": 0.5057565289976441
+    },
+    "tb": {
+      "acc": 0.5606206398845321,
+      "macro_f1": 0.4523089583188132,
+      "shares": {
+        "positive": 50.5,
+        "neutral": 35.0,
+        "negative": 14.5
+      },
+      "rho": 0.519225219304481
+    },
+    "vader_mean_by_star": {
+      "1": -0.17,
+      "2": -0.02,
+      "3": 0.11,
+      "4": 0.31,
+      "5": 0.4
+    },
+    "text_col": "text_light"
+  },
+  "trust_risk_all": {
+    "App": "All apps",
+    "Trust and endorsement %": 12.5,
+    "Risk and grievance %": 6.5,
+    "Fraud-security %": 2.2,
+    "Functional-problem %": 9.7
+  },
+  "trust_risk_mean_star": {
+    "App": "Mean star of matching reviews",
+    "Trust and endorsement %": 4.49,
+    "Risk and grievance %": 1.35,
+    "Fraud-security %": 1.52,
+    "Functional-problem %": 2.18
+  },
+  "func_to_fraud_ratio": 4.409090909090908,
+  "gpay_first_month": {
+    "month": "2019-10",
+    "mean_rating": 4.14,
+    "low_share": 17.36,
+    "risk_share": 2.82
+  },
+  "gpay_lowest_month": {
+    "month": "2021-07",
+    "mean_rating": 2.6,
+    "low_share": 56.15,
+    "risk_share": 5.35
+  }
+}
