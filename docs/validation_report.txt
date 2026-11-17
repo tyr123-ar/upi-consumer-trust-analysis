@@ -1,0 +1,33 @@
+UPI paper validation report
+==========================
+
+Status thresholds: OK <= 0.01 absolute difference; CLOSE <= 0.03; OFF > 0.03. Counts are compared exactly.
+Count checks are labeled with explanations where upstream raw inputs are unavailable.
+
+                                                     check  paper_value  measured_value  difference         status                                                                             explanation
+                                              Raw UPI rows   183876.000   183876.000000    0.000000             OK Local source-file counts are compared with plan values; file provenance is not asserted
+                                       Google Pay raw rows    34228.000    34228.000000    0.000000             OK                             Local source CSV row count; file provenance is not asserted
+                                            Paytm raw rows   137907.000   137907.000000    0.000000             OK                             Local source CSV row count; file provenance is not asserted
+                                          PhonePe raw rows    11741.000    11741.000000    0.000000             OK                             Local source CSV row count; file provenance is not asserted
+Existing upi_all.csv row count (pipeline stage unverified)   183864.000   183864.000000    0.000000             OK                       A matching count does not verify its upstream raw-file processing
+                                       Rows after cleaning   179646.000             NaN         NaN NOT REPRODUCED            Preprocessing-stage counts are not independently verifiable without raw CSVs
+                          Rows after non-English filtering   174552.000   179229.000000 4677.000000            OFF         Existing intermediate row count; filtering parameters may differ from the paper
+                           Final de-duplicated corpus rows    81932.000    83140.000000 1208.000000            OFF                               Existing cleaned corpus; the count differs from the paper
+                                       Overall mean rating        4.140        4.145200    0.005200             OK                                                              Descriptive UPI comparison
+                                           Ratings 4-5 (%)       78.600       78.585259   -0.014741          CLOSE                                                              Descriptive UPI comparison
+                                           Ratings 1-2 (%)       17.600       17.608123    0.008123             OK                                                              Descriptive UPI comparison
+                                    Google Pay mean rating        3.650        3.651685    0.001685             OK                                                              Descriptive UPI comparison
+                                         Paytm mean rating        4.270        4.270355    0.000355             OK                                                              Descriptive UPI comparison
+                                       PhonePe mean rating        4.110        4.113534    0.003534             OK                                                              Descriptive UPI comparison
+                                  VADER benchmark accuracy        0.598        0.531200   -0.066800            OFF                    Same star-rating weak labels, but implementation/sampling may differ
+                                  VADER benchmark macro-F1        0.478        0.479052    0.001052             OK                    Same star-rating weak labels, but implementation/sampling may differ
+                               TextBlob benchmark accuracy        0.560        0.507800   -0.052200            OFF                    Same star-rating weak labels, but implementation/sampling may differ
+                               TextBlob benchmark macro-F1        0.453        0.472672    0.019672          CLOSE                    Same star-rating weak labels, but implementation/sampling may differ
+                                   Trust and endorsement %       15.200       12.500000   -2.700000            OFF                                                  Reconstructed English keyword lexicons
+                                      Risk and grievance %        6.800        6.500000   -0.300000            OFF                                                  Reconstructed English keyword lexicons
+                                          Fraud-security %        2.100        2.200000    0.100000            OFF                                                  Reconstructed English keyword lexicons
+                                      Functional-problem %        8.800        9.700000    0.900000            OFF                                                  Reconstructed English keyword lexicons
+
+QRIS measurements are produced separately; this UPI-only validator does not validate QRIS reference targets.
+See outputs/tables/table13_qris_portion.csv and docs/person_b_reproduction_report.md for measured QRIS results and limitations.
+Star ratings are weak sentiment labels, not ground truth. UPI and QRIS populations are not interchangeable.

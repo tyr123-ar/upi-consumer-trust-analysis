@@ -1,0 +1,4 @@
+sentiment,comments,share_pct,likes,like_weighted_share_pct,wilson_95_low_pct,wilson_95_high_pct
+negative,109,61.58,63654,88.58,54.24,68.43
+neutral,38,21.47,1094,1.52,16.06,28.09
+positive,30,16.95,7110,9.89,12.14,23.16

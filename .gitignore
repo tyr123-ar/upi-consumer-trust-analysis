@@ -6,3 +6,15 @@ __pycache__/
 *.pyc
 data/raw/
 data/processed/
+data/interim/upi_roberta_scored.csv
+data/interim/upi_roberta_benchmark_scored.csv
+data/interim/upi_sentiment_benchmark_sample.csv
+data/interim/upi_topics_scored.csv
+data/interim/qris_clean.csv
+data/interim/qris_scored.csv
+data/interim/qris_themed.csv
+data/interim/qris_topic_assignments.csv
+data/Dataset of Public Perception of QRIS Usage and Sec/
+data/GooglePayIndia.csv
+data/PaytmIndia.csv
+data/PhonePayIndia.csv

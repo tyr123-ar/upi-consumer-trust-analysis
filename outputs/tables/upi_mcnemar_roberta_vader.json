@@ -1,0 +1,9 @@
+{
+  "n": 5000,
+  "a_correct_b_wrong": 946,
+  "a_wrong_b_correct": 461,
+  "discordant_pairs": 1407,
+  "statistic": 166.49324804548687,
+  "p_value": 4.316401870154486e-38,
+  "continuity_corrected": true
+}
