@@ -1,0 +1,23 @@
+metric,value
+dataset_doi,10.17632/xpkw64fd2h.1
+license,CC BY 4.0
+original_filename,FINAL DATA.csv
+source_sha256,1d31d8f918a1913ddc359957f0d369def124c6c9086b052398dd3a7032f014ee
+raw_rows,200
+raw_columns,11
+clean_rows,177
+distinct_comment_ids,200
+duplicate_comment_ids,0
+distinct_users_count_only,199
+blank_comments,0
+invalid_timestamps,0
+date_min,2025-11-06T11:24:46
+date_max,2026-04-01T06:14:45
+comment_chars_min,1
+comment_chars_median,47.0
+comment_chars_max,522
+likes_sum_raw,71864
+likes_mean_raw,359.32
+likes_median_raw,0.0
+likes_max_raw,18014
+zero_like_comments_raw,135

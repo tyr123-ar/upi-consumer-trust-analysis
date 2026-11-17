@@ -1,0 +1,23 @@
+app,selected_k,coherence_c_v,topic_id,top_words,reviews,share_pct,negative_sentiment_pct,sentiment_source
+Google Pay,6,0.5481225798119349,0,"money, good, not, account, pay, send, help, far, know, need",1600,13.85,31.5,VADER
+Google Pay,6,0.5481225798119349,1,"use, easy, pay, convenient, fast, way, great, love, quick, simple",2123,18.37,6.69,VADER
+Google Pay,6,0.5481225798119349,2,"new, not, worked, old, used, phone, version, card, want, update",1210,10.47,29.83,VADER
+Google Pay,6,0.5481225798119349,3,"pay, phone, not, work, just, use, working, time, samsung, update",2492,21.57,39.97,VADER
+Google Pay,6,0.5481225798119349,4,"works, great, wallet, love, just, like, card, good, phone, time",1843,15.95,6.67,VADER
+Google Pay,6,0.5481225798119349,5,"card, not, cards, add, pay, bank, use, credit, payment, debit",2287,19.79,36.16,VADER
+Paytm,6,0.4837752133869202,0,"time, not, bad, recharge, account, update, mobile, login, card, number",1057,9.84,36.14,VADER
+Paytm,6,0.4837752133869202,1,"not, money, customer, service, worst, wallet, account, care, payment, kyc",2290,21.31,45.81,VADER
+Paytm,6,0.4837752133869202,2,"cashback, not, cash, super, use, user, awesome, safe, offers, offer",1489,13.86,18.07,VADER
+Paytm,6,0.4837752133869202,3,"hai, money, account, nahi, bank, nhi, bahut, bhi, raha, rupees",1071,9.97,19.14,VADER
+Paytm,6,0.4837752133869202,4,"aap, better, great, useful, using, happy, fraud, helpful, use, pay",1124,10.46,10.5,VADER
+Paytm,6,0.4837752133869202,5,"good, best, payment, nice, easy, fast, use, love, pay, application",3713,34.56,3.39,VADER
+PhonePe,10,0.44780369574430134,0,"not, money, transfer, wallet, phonepay, best, days, rewards, good, useless",353,8.07,34.56,VADER
+PhonePe,10,0.44780369574430134,1,"experience, bank, thanks, not, khan, account, remove, ads, amir, bad",302,6.91,23.84,VADER
+PhonePe,10,0.44780369574430134,2,"kar, slow, hai, recharge, rahe, gst, platform, important, security, helpful",224,5.12,27.68,VADER
+PhonePe,10,0.44780369574430134,3,"good, easy, fast, use, money, nice, payment, transfer, excellent, great",963,22.03,2.91,VADER
+PhonePe,10,0.44780369574430134,4,"not, money, working, time, best, transaction, payment, love, problem, issue",572,13.08,33.22,VADER
+PhonePe,10,0.44780369574430134,5,"nice, not, service, cash, bad, apps, charging, payment, cashback, worst",581,13.29,29.43,VADER
+PhonePe,10,0.44780369574430134,6,"hai, super, aap, nahi, bahut, nhi, bhi, code, quick, payment",280,6.4,7.14,VADER
+PhonePe,10,0.44780369574430134,7,"useful, safe, really, user, awesome, good, thank, process, friendly, easy",379,8.67,8.44,VADER
+PhonePe,10,0.44780369574430134,8,"like, work, happy, transactions, better, update, best, making, superb, fast",261,5.97,8.05,VADER
+PhonePe,10,0.44780369574430134,9,"phone, pay, recharge, account, not, charge, extra, number, support, mobile",457,10.45,37.42,VADER

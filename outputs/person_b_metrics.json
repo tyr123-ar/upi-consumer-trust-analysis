@@ -1,0 +1,488 @@
+{
+  "upi_sentiment_benchmark_sampling": {
+    "seed": 42,
+    "target_per_rating": 1000,
+    "minimum_words": 3,
+    "sampled_total": 5000,
+    "rating_counts": {
+      "1": 1000,
+      "2": 1000,
+      "3": 1000,
+      "4": 1000,
+      "5": 1000
+    }
+  },
+  "upi_benchmark_roberta": {
+    "n": 5000,
+    "accuracy": 0.6282,
+    "macro_precision": 0.588250649156659,
+    "macro_recall": 0.5760000000000001,
+    "macro_f1": 0.5786040036091395,
+    "per_class": {
+      "negative": {
+        "precision": 0.672719019518838,
+        "recall": 0.741,
+        "f1": 0.7052105638829408,
+        "support": 2000
+      },
+      "neutral": {
+        "precision": 0.27202072538860106,
+        "recall": 0.315,
+        "f1": 0.2919369786839666,
+        "support": 1000
+      },
+      "positive": {
+        "precision": 0.8200122025625382,
+        "recall": 0.672,
+        "f1": 0.7386644682605111,
+        "support": 2000
+      }
+    },
+    "confusion_matrix": [
+      [
+        1482,
+        432,
+        86
+      ],
+      [
+        476,
+        315,
+        209
+      ],
+      [
+        245,
+        411,
+        1344
+      ]
+    ],
+    "classification_report": {
+      "negative": {
+        "precision": 0.672719019518838,
+        "recall": 0.741,
+        "f1-score": 0.7052105638829408,
+        "support": 2000.0
+      },
+      "neutral": {
+        "precision": 0.27202072538860106,
+        "recall": 0.315,
+        "f1-score": 0.2919369786839666,
+        "support": 1000.0
+      },
+      "positive": {
+        "precision": 0.8200122025625382,
+        "recall": 0.672,
+        "f1-score": 0.7386644682605111,
+        "support": 2000.0
+      },
+      "accuracy": 0.6282,
+      "macro avg": {
+        "precision": 0.588250649156659,
+        "recall": 0.5760000000000001,
+        "f1-score": 0.5786040036091395,
+        "support": 5000.0
+      },
+      "weighted avg": {
+        "precision": 0.6514966339102706,
+        "recall": 0.6282,
+        "f1-score": 0.6359374085941741,
+        "support": 5000.0
+      }
+    }
+  },
+  "upi_benchmark_vader": {
+    "n": 5000,
+    "accuracy": 0.5312,
+    "macro_precision": 0.4939239499214951,
+    "macro_recall": 0.4848333333333333,
+    "macro_f1": 0.4790522810799846,
+    "per_class": {
+      "negative": {
+        "precision": 0.6588061901252763,
+        "recall": 0.447,
+        "f1": 0.5326184092940125,
+        "support": 2000
+      },
+      "neutral": {
+        "precision": 0.23534883720930233,
+        "recall": 0.253,
+        "f1": 0.24385542168674698,
+        "support": 1000
+      },
+      "positive": {
+        "precision": 0.5876168224299065,
+        "recall": 0.7545,
+        "f1": 0.6606830122591943,
+        "support": 2000
+      }
+    },
+    "confusion_matrix": [
+      [
+        894,
+        519,
+        587
+      ],
+      [
+        275,
+        253,
+        472
+      ],
+      [
+        188,
+        303,
+        1509
+      ]
+    ],
+    "classification_report": {
+      "negative": {
+        "precision": 0.6588061901252763,
+        "recall": 0.447,
+        "f1-score": 0.5326184092940125,
+        "support": 2000.0
+      },
+      "neutral": {
+        "precision": 0.23534883720930233,
+        "recall": 0.253,
+        "f1-score": 0.24385542168674698,
+        "support": 1000.0
+      },
+      "positive": {
+        "precision": 0.5876168224299065,
+        "recall": 0.7545,
+        "f1-score": 0.6606830122591943,
+        "support": 2000.0
+      },
+      "accuracy": 0.5312,
+      "macro avg": {
+        "precision": 0.4939239499214951,
+        "recall": 0.4848333333333333,
+        "f1-score": 0.4790522810799846,
+        "support": 5000.0
+      },
+      "weighted avg": {
+        "precision": 0.5456389724639336,
+        "recall": 0.5312,
+        "f1-score": 0.5260916529586321,
+        "support": 5000.0
+      }
+    }
+  },
+  "upi_benchmark_textblob": {
+    "n": 5000,
+    "accuracy": 0.5078,
+    "macro_precision": 0.5191382180903968,
+    "macro_recall": 0.4871666666666667,
+    "macro_f1": 0.47267182846205574,
+    "per_class": {
+      "negative": {
+        "precision": 0.7104984093319194,
+        "recall": 0.335,
+        "f1": 0.45531770302412505,
+        "support": 2000
+      },
+      "neutral": {
+        "precision": 0.2363076923076923,
+        "recall": 0.384,
+        "f1": 0.2925714285714286,
+        "support": 1000
+      },
+      "positive": {
+        "precision": 0.610608552631579,
+        "recall": 0.7425,
+        "f1": 0.6701263537906137,
+        "support": 2000
+      }
+    },
+    "confusion_matrix": [
+      [
+        670,
+        830,
+        500
+      ],
+      [
+        169,
+        384,
+        447
+      ],
+      [
+        104,
+        411,
+        1485
+      ]
+    ],
+    "classification_report": {
+      "negative": {
+        "precision": 0.7104984093319194,
+        "recall": 0.335,
+        "f1-score": 0.45531770302412505,
+        "support": 2000.0
+      },
+      "neutral": {
+        "precision": 0.2363076923076923,
+        "recall": 0.384,
+        "f1-score": 0.2925714285714286,
+        "support": 1000.0
+      },
+      "positive": {
+        "precision": 0.610608552631579,
+        "recall": 0.7425,
+        "f1-score": 0.6701263537906137,
+        "support": 2000.0
+      },
+      "accuracy": 0.5078,
+      "macro avg": {
+        "precision": 0.5191382180903968,
+        "recall": 0.4871666666666667,
+        "f1-score": 0.47267182846205574,
+        "support": 5000.0
+      },
+      "weighted avg": {
+        "precision": 0.5757043232469379,
+        "recall": 0.5078,
+        "f1-score": 0.5086919084401812,
+        "support": 5000.0
+      }
+    }
+  },
+  "upi_benchmark_roberta_vs_vader_mcnemar": {
+    "n": 5000,
+    "a_correct_b_wrong": 946,
+    "a_wrong_b_correct": 461,
+    "discordant_pairs": 1407,
+    "statistic": 166.49324804548687,
+    "p_value": 4.316401870154486e-38,
+    "continuity_corrected": true
+  },
+  "upi_topic_model": {
+    "sample_per_app": 12000,
+    "topic_counts": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      10
+    ],
+    "passes": 4,
+    "iterations": 50,
+    "seed": 42,
+    "coherence": "c_v",
+    "sentiment_source": "VADER"
+  },
+  "upi_topic_optimal_k": {
+    "Google Pay": 6,
+    "Paytm": 6,
+    "PhonePe": 10
+  },
+  "upi_topic_coherence": {
+    "Google Pay": {
+      "4": 0.545159498449739,
+      "5": 0.5354528473907718,
+      "6": 0.5481225798119349,
+      "7": 0.5261970229650517,
+      "8": 0.5412893015995082,
+      "10": 0.4821503783408561
+    },
+    "Paytm": {
+      "4": 0.39982811178389466,
+      "5": 0.3868218759058176,
+      "6": 0.4837752133869202,
+      "7": 0.4540695101826258,
+      "8": 0.44840678104949416,
+      "10": 0.4747510458422438
+    },
+    "PhonePe": {
+      "4": 0.398251582513123,
+      "5": 0.3749917915596047,
+      "6": 0.3688027657926038,
+      "7": 0.38473754199489435,
+      "8": 0.4159536474875633,
+      "10": 0.44780369574430134
+    }
+  },
+  "upi_topic_sentiment_source": "VADER",
+  "upi_exploratory_themes": {
+    "definition": "Overlapping keyword-rule matches; exploratory UPI analysis, not QRIS",
+    "review_count": 2,
+    "matched_review_count": 1
+  },
+  "qris_preprocessing": {
+    "raw": 200,
+    "after_comment_id_dedup": 200,
+    "after_empty_normalization": 181,
+    "after_text_dedup": 180,
+    "final": 177
+  },
+  "qris_profile": {
+    "dataset_doi": "10.17632/xpkw64fd2h.1",
+    "license": "CC BY 4.0",
+    "original_filename": "FINAL DATA.csv",
+    "source_sha256": "1d31d8f918a1913ddc359957f0d369def124c6c9086b052398dd3a7032f014ee",
+    "raw_rows": 200,
+    "raw_columns": 11,
+    "clean_rows": 177,
+    "distinct_comment_ids": 200,
+    "duplicate_comment_ids": 0,
+    "distinct_users_count_only": 199,
+    "blank_comments": 0,
+    "invalid_timestamps": 0,
+    "date_min": "2025-11-06T11:24:46",
+    "date_max": "2026-04-01T06:14:45",
+    "comment_chars_min": 1,
+    "comment_chars_median": 47.0,
+    "comment_chars_max": 522,
+    "likes_sum_raw": 71864,
+    "likes_mean_raw": 359.32,
+    "likes_median_raw": 0.0,
+    "likes_max_raw": 18014,
+    "zero_like_comments_raw": 135
+  },
+  "qris_model": {
+    "model": "w11wo/indonesian-roberta-base-sentiment-classifier",
+    "revision": "ac452dcb0f4966130bba44f4ee0013bb5d52c282",
+    "device": "cpu",
+    "rows_scored": 177
+  },
+  "qris_sentiment": {
+    "n": 177,
+    "counts": {
+      "negative": 109,
+      "neutral": 38,
+      "positive": 30
+    },
+    "shares_pct": {
+      "negative": 61.58,
+      "neutral": 21.47,
+      "positive": 16.95
+    },
+    "likes_by_sentiment": {
+      "negative": 63654,
+      "neutral": 1094,
+      "positive": 7110
+    },
+    "like_weighted_shares_pct": {
+      "negative": 88.58,
+      "neutral": 1.52,
+      "positive": 9.89
+    },
+    "negative_wilson_95_pct": [
+      54.24,
+      68.43
+    ],
+    "mean_confidence": 0.938947,
+    "total_likes": 71858,
+    "model_revision": "ac452dcb0f4966130bba44f4ee0013bb5d52c282",
+    "wilson_note": "Unweighted comment-level interval; not applied to like-weighted shares."
+  },
+  "qris_themes": {
+    "n": 177,
+    "themes": [
+      {
+        "category": "Fraud or edited payment evidence",
+        "comments": 16,
+        "share_pct": 9.04,
+        "wilson_95_low_pct": 5.64,
+        "wilson_95_high_pct": 14.18,
+        "negative_comments": 10,
+        "negative_within_category_pct": 62.5
+      },
+      {
+        "category": "Security or phishing",
+        "comments": 4,
+        "share_pct": 2.26,
+        "wilson_95_low_pct": 0.88,
+        "wilson_95_high_pct": 5.67,
+        "negative_comments": 0,
+        "negative_within_category_pct": 0.0
+      },
+      {
+        "category": "Network or payment problems",
+        "comments": 22,
+        "share_pct": 12.43,
+        "wilson_95_low_pct": 8.35,
+        "wilson_95_high_pct": 18.1,
+        "negative_comments": 19,
+        "negative_within_category_pct": 86.36
+      },
+      {
+        "category": "Verification and trust mechanisms",
+        "comments": 15,
+        "share_pct": 8.47,
+        "wilson_95_low_pct": 5.2,
+        "wilson_95_high_pct": 13.51,
+        "negative_comments": 2,
+        "negative_within_category_pct": 13.33
+      },
+      {
+        "category": "Information seeking or awareness",
+        "comments": 4,
+        "share_pct": 2.26,
+        "wilson_95_low_pct": 0.88,
+        "wilson_95_high_pct": 5.67,
+        "negative_comments": 3,
+        "negative_within_category_pct": 75.0
+      },
+      {
+        "category": "User experience or convenience",
+        "comments": 6,
+        "share_pct": 3.39,
+        "wilson_95_low_pct": 1.56,
+        "wilson_95_high_pct": 7.2,
+        "negative_comments": 6,
+        "negative_within_category_pct": 100.0
+      }
+    ],
+    "narrow_lexicons": [
+      {
+        "category": "Fraud / manipulated evidence",
+        "comments": 16,
+        "share_pct": 9.04,
+        "wilson_95_low_pct": 5.64,
+        "wilson_95_high_pct": 14.18,
+        "negative_comments": 10,
+        "negative_within_category_pct": 62.5
+      },
+      {
+        "category": "Network / functional problems",
+        "comments": 22,
+        "share_pct": 12.43,
+        "wilson_95_low_pct": 8.35,
+        "wilson_95_high_pct": 18.1,
+        "negative_comments": 19,
+        "negative_within_category_pct": 86.36
+      },
+      {
+        "category": "Security / phishing",
+        "comments": 4,
+        "share_pct": 2.26,
+        "wilson_95_low_pct": 0.88,
+        "wilson_95_high_pct": 5.67,
+        "negative_comments": 0,
+        "negative_within_category_pct": 0.0
+      },
+      {
+        "category": "Verification / trust mechanisms",
+        "comments": 15,
+        "share_pct": 8.47,
+        "wilson_95_low_pct": 5.2,
+        "wilson_95_high_pct": 13.51,
+        "negative_comments": 2,
+        "negative_within_category_pct": 13.33
+      }
+    ]
+  },
+  "qris_topic_model": {
+    "candidate_k": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "selected_k": 6,
+    "coherence_c_v": 0.4022019533947321,
+    "passes": 8,
+    "iterations": 100,
+    "seed": 42,
+    "comments": 160
+  }
+}

@@ -1,0 +1,8 @@
+concern,UPI evidence,QRIS evidence,interpretation_limit
+Overall sentiment (comment-weighted),Existing UPI VADER results; see UPI sentiment outputs,"negative 61.58%, neutral 21.47%, positive 16.95%; n=177","Different languages, platforms, and models; descriptive side-by-side only."
+Overall sentiment (like-weighted),Not paired to TikTok likes in this analysis,"negative 88.58% of likes, neutral 1.52% of likes, positive 9.89% of likes","Likes are engagement counts, not independent users or sentiment votes."
+Fraud / manipulated payment evidence,2.20% (UPI lexicon),16 comments (9.04%),Different rule lexicons and corpora; matches are not verified fraud incidents.
+Security / phishing,2.20% (UPI lexicon),4 comments (2.26%),Different rule lexicons and corpora; percentages are not directly comparable.
+Network / functional problems,9.70% (UPI lexicon),22 comments (12.43%),Different language-specific rule sets and sampling frames.
+Verification / trust mechanisms,12.50% (UPI lexicon),15 comments (8.47%),Exploratory keyword matches; the QRIS rows are small and may overlap other themes.
+QRIS LDA topic summary,UPI LDA results are app-specific,Topic 1 16.88%; Topic 2 20.62%; Topic 3 13.75%; Topic 4 17.50%; Topic 5 18.12%; Topic 6 13.12%,Topics are exploratory; QRIS has no video identifier for video-level inference.

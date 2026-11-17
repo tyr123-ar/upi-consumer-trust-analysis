@@ -1,0 +1,25 @@
+app,theme,reviews,share_pct
+Google Pay,Account and verification,117,0.45
+Google Pay,Convenience and usability,2095,8.05
+Google Pay,Customer support,85,0.33
+Google Pay,Fraud and suspicious transactions,118,0.45
+Google Pay,Payment delays,10,0.04
+Google Pay,Refund issues,179,0.69
+Google Pay,Security and privacy,883,3.39
+Google Pay,Transaction failure,13,0.05
+Paytm,Account and verification,1289,2.48
+Paytm,Convenience and usability,1115,2.15
+Paytm,Customer support,1618,3.11
+Paytm,Fraud and suspicious transactions,585,1.13
+Paytm,Payment delays,203,0.39
+Paytm,Refund issues,714,1.37
+Paytm,Security and privacy,747,1.44
+Paytm,Transaction failure,147,0.28
+PhonePe,Account and verification,14,0.27
+PhonePe,Convenience and usability,124,2.42
+PhonePe,Customer support,45,0.88
+PhonePe,Fraud and suspicious transactions,36,0.7
+PhonePe,Payment delays,21,0.41
+PhonePe,Refund issues,47,0.92
+PhonePe,Security and privacy,76,1.48
+PhonePe,Transaction failure,17,0.33

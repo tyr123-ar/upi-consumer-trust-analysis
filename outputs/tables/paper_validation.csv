@@ -1,0 +1,23 @@
+check,paper_value,measured_value,difference,status,explanation
+Raw UPI rows,183876.0,183876.0,0.0,OK,Local source-file counts are compared with plan values; file provenance is not asserted
+Google Pay raw rows,34228.0,34228.0,0.0,OK,Local source CSV row count; file provenance is not asserted
+Paytm raw rows,137907.0,137907.0,0.0,OK,Local source CSV row count; file provenance is not asserted
+PhonePe raw rows,11741.0,11741.0,0.0,OK,Local source CSV row count; file provenance is not asserted
+Existing upi_all.csv row count (pipeline stage unverified),183864.0,183864.0,0.0,OK,A matching count does not verify its upstream raw-file processing
+Rows after cleaning,179646.0,,,NOT REPRODUCED,Preprocessing-stage counts are not independently verifiable without raw CSVs
+Rows after non-English filtering,174552.0,179229.0,4677.0,OFF,Existing intermediate row count; filtering parameters may differ from the paper
+Final de-duplicated corpus rows,81932.0,83140.0,1208.0,OFF,Existing cleaned corpus; the count differs from the paper
+Overall mean rating,4.14,4.145199712831223,0.005199712831223557,OK,Descriptive UPI comparison
+Ratings 4-5 (%),78.6,78.58525866945133,-0.014741330548659448,CLOSE,Descriptive UPI comparison
+Ratings 1-2 (%),17.6,17.608123395553235,0.008123395553234047,OK,Descriptive UPI comparison
+Google Pay mean rating,3.65,3.65168473654987,0.0016847365498700029,OK,Descriptive UPI comparison
+Paytm mean rating,4.27,4.270354739528948,0.00035473952894804484,OK,Descriptive UPI comparison
+PhonePe mean rating,4.11,4.113533770547654,0.0035337705476532477,OK,Descriptive UPI comparison
+VADER benchmark accuracy,0.598,0.5312,-0.06679999999999997,OFF,"Same star-rating weak labels, but implementation/sampling may differ"
+VADER benchmark macro-F1,0.478,0.4790522810799846,0.0010522810799846183,OK,"Same star-rating weak labels, but implementation/sampling may differ"
+TextBlob benchmark accuracy,0.56,0.5078,-0.052200000000000024,OFF,"Same star-rating weak labels, but implementation/sampling may differ"
+TextBlob benchmark macro-F1,0.453,0.47267182846205574,0.01967182846205573,CLOSE,"Same star-rating weak labels, but implementation/sampling may differ"
+Trust and endorsement %,15.2,12.5,-2.6999999999999993,OFF,Reconstructed English keyword lexicons
+Risk and grievance %,6.8,6.5,-0.2999999999999998,OFF,Reconstructed English keyword lexicons
+Fraud-security %,2.1,2.2,0.10000000000000009,OFF,Reconstructed English keyword lexicons
+Functional-problem %,8.8,9.7,0.8999999999999986,OFF,Reconstructed English keyword lexicons

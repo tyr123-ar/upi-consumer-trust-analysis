@@ -1,0 +1,45 @@
+{
+  "dataset": "10.17632/xpkw64fd2h.1",
+  "stages": [
+    {
+      "stage": "preprocess",
+      "status": "completed",
+      "seconds": 0.106
+    },
+    {
+      "stage": "profile",
+      "status": "completed",
+      "seconds": 0.066
+    },
+    {
+      "stage": "indonesian_roberta",
+      "status": "completed",
+      "seconds": 0.005
+    },
+    {
+      "stage": "sentiment_summary",
+      "status": "completed",
+      "seconds": 0.034
+    },
+    {
+      "stage": "themes_and_lexicons",
+      "status": "completed",
+      "seconds": 0.06
+    },
+    {
+      "stage": "topics",
+      "status": "completed",
+      "seconds": 4.858
+    },
+    {
+      "stage": "figure_4",
+      "status": "completed",
+      "seconds": 1.413
+    },
+    {
+      "stage": "table_13_qris",
+      "status": "completed",
+      "seconds": 0.024
+    }
+  ]
+}

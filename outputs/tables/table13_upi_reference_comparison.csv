@@ -1,0 +1,13 @@
+metric,scope,measured_value,reference_value,comparison_note
+Overall mean rating,UPI,4.145199712831223,4.14,Different sample/population or methodology; descriptive comparison only
+Ratings 4-5 (%),UPI,78.58525866945133,78.6,Different sample/population or methodology; descriptive comparison only
+Ratings 1-2 (%),UPI,17.608123395553235,17.6,Different sample/population or methodology; descriptive comparison only
+Google Pay mean rating,UPI,3.65168473654987,3.65,Different sample/population or methodology; descriptive comparison only
+Paytm mean rating,UPI,4.270354739528948,4.27,Different sample/population or methodology; descriptive comparison only
+PhonePe mean rating,UPI,4.113533770547654,4.11,Different sample/population or methodology; descriptive comparison only
+RoBERTa weak-label benchmark accuracy,UPI,0.6282,,No directly comparable reference value supplied
+RoBERTa weak-label benchmark macro-F1,UPI,0.5786040036091395,,No directly comparable reference value supplied
+VADER weak-label benchmark accuracy,UPI,0.5312,,No directly comparable reference value supplied
+VADER weak-label benchmark macro-F1,UPI,0.4790522810799846,,No directly comparable reference value supplied
+TextBlob weak-label benchmark accuracy,UPI,0.5078,,No directly comparable reference value supplied
+TextBlob weak-label benchmark macro-F1,UPI,0.47267182846205574,,No directly comparable reference value supplied

@@ -1,0 +1,6 @@
+rating,eligible_reviews,sampled_reviews,target_per_rating,seed,random_state,minimum_words
+1,21838,1000,1000,42,43,3
+2,3066,1000,1000,42,44,3
+3,3508,1000,1000,42,45,3
+4,6072,1000,1000,42,46,3
+5,34984,1000,1000,42,47,3

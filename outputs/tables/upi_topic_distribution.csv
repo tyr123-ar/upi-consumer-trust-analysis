@@ -1,0 +1,23 @@
+app,topic_id,reviews,share_pct
+Google Pay,0,1600,13.85
+Google Pay,1,2123,18.37
+Google Pay,2,1210,10.47
+Google Pay,3,2492,21.57
+Google Pay,4,1843,15.95
+Google Pay,5,2287,19.79
+Paytm,0,1057,9.84
+Paytm,1,2290,21.31
+Paytm,2,1489,13.86
+Paytm,3,1071,9.97
+Paytm,4,1124,10.46
+Paytm,5,3713,34.56
+PhonePe,0,353,8.07
+PhonePe,1,302,6.91
+PhonePe,2,224,5.12
+PhonePe,3,963,22.03
+PhonePe,4,572,13.08
+PhonePe,5,581,13.29
+PhonePe,6,280,6.4
+PhonePe,7,379,8.67
+PhonePe,8,261,5.97
+PhonePe,9,457,10.45

@@ -1,0 +1,25 @@
+{
+  "stages": [
+    {
+      "stage": "topics_upi",
+      "status": "completed",
+      "seconds": 364.493
+    },
+    {
+      "stage": "themes_upi",
+      "status": "completed",
+      "seconds": 41.042
+    },
+    {
+      "stage": "figures",
+      "status": "completed",
+      "seconds": 9.365
+    },
+    {
+      "stage": "validation",
+      "status": "completed",
+      "seconds": 1.047
+    }
+  ],
+  "qris": "Completed separately; see outputs/qris_run_manifest.json for QRIS stage details"
+}
